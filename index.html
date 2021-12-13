@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EP3</title>
+    <link
+  rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <span class="header--top"></span>
+        <div class="header">
+            <div class="header__logo">
+                <img src="./img/fullLogo-5.svg" alt="IMG">
+            </div>
+    
+            <div class="header__menu">
+                <ul class="header__menu-mobile">
+                    <li>
+                        <a href="#">
+                            <img src="./img/Mobile/homepage.svg" alt="IMG">
+                            <span>Trang chủ</span>
+                        </a>
+                    </li>   
+                    <li>
+                        <a href="#">
+                            <img src="./img/Mobile/product.svg" alt="IMG">
+                            <span>Sản phẩm</span>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="#" class="header__menu-mobile--red">
+                            <img src="./img/Mobile/user.svg" alt="IMG">
+                            <span>Tài khoản</span>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="#">
+                            <img src="./img/Mobile/location.svg" alt="IMG">
+                            <span>Tìm cửa hàng</span>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="#">
+                            <img src="./img/Mobile/plus.svg" alt="IMG">
+                            <span>Thêm</span>
+                        </a>
+                    </li>              
+                </ul>
+            </div>
+    
+            <!-- Header search section & cart section-->
+            <div class="header__search">
+                <form role="search" class="header__search-section">
+                    <input type="search" placeholder="Địa chỉ nhận hàng">
+                    <a href="#">
+                        <img src="./img/location.svg" alt="IMG">
+                    </a>
+                </form>
+                <a href="#" class="header__search-icon">
+                    <img src="./img/icon__search.svg" alt="IMG">
+                </a>
+                <a href="#" class="header__search-cart">
+                    <img src="./img/cart.svg" alt="IMG">
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main class="main">
+        <!-- SLIDER SHOW -->
+        <section class="slider-show">
+         
+            <div class="swiper slider__show">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper slider-show__lists">
+                    <!-- Slides -->
+                    <div class="swiper-slide slider-show__member"> <img src="./img/slider.svg" alt="IMG"></div>
+                    <div class="swiper-slide slider-show__member"> <img src="./img/slider.svg" alt="IMG"></div>
+                    <div class="swiper-slide slider-show__member"> <img src="./img/slider.svg" alt="IMG"></div>
+                </div>
+            </div>
+            <!-- <a class="slider-show-number" href="#">
+                <span>1</span>
+                /6
+            </a> -->
+            <a class="slider-show__ckclub" href="#" >
+                <img src="./img/ckclub.svg" alt="IMG">
+            </a>
+            <a class="slider-show__contact" href="#" >
+                <img src="./img/phone.svg" alt="IMG">
+                <img src="./img/chat.svg" alt="IMG">
+            </a> 
+       
+        </section>
+  
+        <!-- Category -->
+        <section class="category">
+            <ul class="category__list">
+                <li class="category__list-item">
+                    <a href="#">
+                        <div class="category__list-item-img category__list-item-img--red">
+                            <img src="./img/promtion.svg" alt="IMG">
+                        </div>
+                        <h3>Hàng khuyến mãi</h3>
+                    </a>                    
+                </li>
+                <li class="category__list-item">
+                    <a href="#">
+                        <div class="category__list-item-img">
+                            <img src="./img/beverage.svg" alt="IMG">
+                        </div>
+                        <h3>Nước giải khát</h3>
+                    </a>
+                </li>
+                <li class="category__list-item">
+                   <a href="#">
+                        <div class="category__list-item-img">
+                            <img src="./img/snack.svg" alt="IMG">
+                        </div>
+                        <h3>Snack & bánh kẹo</h3>
+                   </a>
+                </li>
+                <li class="category__list-item">
+                   <a href="#">
+                        <div class="category__list-item-img">
+                            <img src="./img/milk.svg" alt="IMG">
+                        </div>
+                        <h3>Sữa & các sp từ sữa</h3>
+                   </a>
+                </li>
+                <li class="category__list-item">
+                   <a href="#">
+                        <div class="category__list-item-img">
+                            <img src="./img/dryfood.svg" alt="IMG">
+                        </div>
+                        <h3>Thực phẩm khô</h3>
+                   </a>
+                </li>
+                <li class="category__list-item">
+                    <a href="#">
+                        <div class="category__list-item-img">
+                            <img src="./img/skincare.svg" alt="IMG">
+                        </div>
+                        <h3>Sức khỏe & làm đẹp</h3>
+                    </a>
+                </li>
+                <li class="category__list-item">
+                   <a href="#">
+                        <div class="category__list-item-img">
+                            <img src="./img/detergent.svg" alt="IMG">
+                        </div>
+                        <h3>Đồ dùng gia đình</h3>
+                   </a>
+                </li>
+                <li class="category__list-item">
+                   <a href="#">
+                        <div class="category__list-item-img">
+                            <img src="./img/cirlek.svg" alt="IMG">
+                        </div>
+                        <h3>Tham gia CK Club</h3>
+                   </a>
+                </li>
+            </ul>
+         
+        </section>
+        <!-- New Product -->
+        <section class="product">
+            <div class="product__heading">
+                <h3>Sản phẩm mới</h3>
+            </div>
+            <div class="swiper product__lists">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/fried__noodles.svg" alt="IMG">
+                        <a href="#">Mỳ trộn xúc xinh trứng chiên
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/sandwich.svg" alt="IMG">
+                        <a href="#">Sandwich
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/heniken.svg" alt="IMG">
+                        <a href="#">Bia Heniken Silver
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/fried__noodles.svg" alt="IMG">
+                        <a href="#">Xôi lá chuối
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper product__lists">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/heniken.svg" alt="IMG">
+                        <a href="#">Bia Heniken Silver
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/cafe.svg" alt="IMG">
+                        <a href="#">Sữa tươi cà phê
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/trasua.svg" alt="IMG">
+                        <a href="#">Trà đào
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/fried__noodles.svg" alt="IMG">
+                        <a href="#">Xôi lá chuối
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="product__footer">
+                Xem thêm sản phẩm
+            </a>
+        </section>
+        <!-- Selling Product -->
+        <section class="product">
+            <div class="product__heading">
+                <h3>Sản phẩm bán chạy</h3>
+            </div>
+            <div class="swiper product__lists">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/fried__noodles.svg" alt="IMG">
+                        <a href="#">Mỳ trộn xúc xinh trứng chiên
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/sandwich.svg" alt="IMG">
+                        <a href="#">Sandwich
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/heniken.svg" alt="IMG">
+                        <a href="#">Bia Heniken Silver
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/fried__noodles.svg" alt="IMG">
+                        <a href="#">Xôi lá chuối
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper product__lists">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/heniken.svg" alt="IMG">
+                        <a href="#">Bia Heniken Silver
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/cafe.svg" alt="IMG">
+                        <a href="#">Sữa tươi cà phê
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/trasua.svg" alt="IMG">
+                        <a href="#">Trà đào
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                    <div class="swiper-slide product__lists-item">
+                        <img src="./img/List/fried__noodles.svg" alt="IMG">
+                        <a href="#">Xôi lá chuối
+                            <span>23.000Đ</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="product__footer">
+                Xem thêm sản phẩm
+            </a>
+        </section>
+        <!-- Banner section -->
+        <section class="banner-section">
+            <div class="swiper banner">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="#" class="banner-section__sub">
+                            <img src="./img/banner.svg" alt="IMG">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="banner-section__sub">
+                            <img src="./img/banner.svg" alt="IMG">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="banner-section__sub">
+                            <img src="./img/banner.svg" alt="IMG">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Convenient services -->
+        <section class="services">
+            <div class="services__heading">
+                <h3>Dịch vụ tiện ích</h3>
+            </div>
+            <div class="swiper services__slider">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide services__slider-content">
+                        <div class="services__slider-img">
+                            <img src="./img/phonecard.svg" alt="IMG">
+                        </div>
+                        <a href="#">Thanh toán bằng thẻ</a>
+                    </div>
+                    <div class="swiper-slide services__slider-content">
+                        <div class="services__slider-img">
+                            <img src="./img/invoicepayment.svg" alt="IMG">                            
+                        </div>
+                        <a href="#">Thanh toán hóa đơn</a>
+                    </div>
+                    <div class="swiper-slide services__slider-content">
+                        <div class="services__slider-img">
+                            <img src="./img/gamecard.svg" alt="IMG">                            
+                        </div>
+                        <a href="#">Thẻ game</a>
+                    </div>
+                    <div class="swiper-slide services__slider-content">
+                        <div class="services__slider-img">
+                            <img src="./img/cardphone.svg" alt="IMG">                            
+                        </div>
+                        <a href="#">Thẻ điện thoại</a>
+                    </div>
+                    <div class="swiper-slide services__slider-content">
+                        <div class="services__slider-img">
+                            <img src="./img/phonecard.svg" alt="IMG">
+                        </div>
+                        <a href="#">Giặt là</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="services__footer">
+                Xem thêm dịch vụ
+            </a>
+        </section>
+
+        <!-- News and events -->
+        <section class="events">
+            <div class="events__heading">
+                <h3>Sự kiện & tin tức</h3>
+            </div>
+            <div class="swiper events__content">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <a href="#" class="events__lists-item">
+                            <img src="./img/event.svg" alt="IMG">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="events__lists-item">
+                            <img src="./img/event2.svg" alt="IMG">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#" class="events__lists-item">
+                            <img src="./img/event2.svg" alt="IMG">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="events__footer">
+                Xem tất cả tin tức
+            </a>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- More details -->
+        <section class="footer__subcription">
+            <ul class="footer__subcription-socials">
+                <li><a href="#">
+                    <img src="./img/Mobile/circlek.svg" alt="IMG">
+                </a></li>
+                <li><a href="#">
+                    <img src="./img/Mobile/Facebook.svg" alt="IMG">
+                </a></li>
+                <li><a href="#">
+                    <img src="./img/Mobile/Youtube.svg" alt="IMG">
+                </a></li>
+                <li><a href="#">
+                    <img src="./img/Mobile/Tiktok.svg" alt="IMG">
+                </a></li>
+            </ul>
+            <form class="footer__subcription-confirm">
+                <input type="email" placeholder="Email của bạn">
+                <a href="#">Xác nhận</a>
+            </form>
+        </section>
+        <section class="footer__heading">
+            <h3 class="footer__heading-title">
+                Circle K Vietnam
+                <span>Chuỗi cửa hàng tiện lợi - Mở cửa 24/7</span>                
+            </h3>
+            <div class="footer__heading-description">
+                <p>CÔNG TY TNHH VÒNG TRÒN ĐỎ - Giấy CNĐKDN : 0306182043</p>
+                <p>Địa chỉ: 160 Bùi Thị Xuân, Phường Phạm Ngũ Lão, Quận 1, Tp.Hồ Chí Minh, Việt Nam</p>
+                <p>Hotline: 1900 3110 (7:00-22:00)</p>
+                <p>Email: info@circlek.com.vn</p>
+            </div>
+        </section>
+        <section class="footer__dowload">
+            <img class="footer__dowload-qr" src="./img/Mobile/qr__cir.svg" alt="IMG">                
+            <a class="footer__dowload-app" href="#">
+                <img src="./img/Mobile/qr__ap.svg" alt="IMG">
+                <img src="./img/Mobile/qr__go.svg" alt="IMG">
+            </a>
+            <div class="footer__dowload-certification">
+                <img src="./img/Mobile/bo.png" alt="IMG">         
+            </div>   
+        </section>
+        <section class="footer__end">
+            <ul class="footer__end-information">
+                <li><a href="#">Giới Thiệu</a></li>
+                <li><a href="#">Cơ hội nghề nghiệp</a></li>
+                <li><a href="#">Tin tức & sự kiện</a></li>
+                <li><a href="#">Liên hệ</a></li>
+                <li><a href="#">Điều khoản sử dụng</a></li>
+                <li><a href="#">Chính sách bảo mật</a></li>
+                <li><a href="#">Copyright © 2021 Circle K Vietnam</a></li>
+            </ul>
+        </section>
+    </footer>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script>
+      
+var swiper = new Swiper('.banner', {
+// Optional parameters
+grab:true,
+loop: true,
+autoplay: {
+    delay: 5000,
+    disableOnInteraction:false,
+},
+
+});
+var swiper = new Swiper('.slider__show', {
+    // Optional parameters
+    grab:true,
+    loop: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction:false,
+    },
+});
+var swiper = new Swiper('.events__content', {
+    // Optional parameters
+    grab:true,
+    loop: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction:false,
+    },
+});
+
+var swiper = new Swiper('.product__lists', {
+    // Optional parameters
+    grab:true,
+    loop: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction:false,
+    },
+breakpoints: {
+        0: {
+        slidesPerView: 1,
+        },
+        414: {
+        slidesPerView: 2.5,
+        },
+    },
+});
+    var swiper = new Swiper(".services__slider", {
+    loop: true,
+    grabCursor: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        0: {
+        slidesPerView: 3,
+        },
+        414: {
+        slidesPerView: 4.5,
+        },
+    },
+    });
+
+    var swiper = new Swiper(".events__content", {
+        spaceBetween: 20,
+        loop: true,
+        grabCursor: true,
+        autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+        },
+        breakpoints: {
+            414: {
+            slidesPerView: 2.5,
+            },
+        },
+    });
+
+    </script>
+</body>
+</html>
